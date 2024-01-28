@@ -11,17 +11,17 @@
 
 **User vs Kernel Mode:**
 
-- *Modo Usuario (User Mode):*
+- *User Mode:*
    - Los procesos de usuario tienen restricciones y no pueden acceder directamente al hardware ni a instrucciones privilegiadas.
 
-- *Modo Kernel (Kernel Mode):*
+- *Kernel Mode:*
    - El sistema operativo tiene acceso completo al hardware y puede ejecutar cualquier instrucción del procesador.
 
-**Interrupciones (Interrupts) vs Trampas (Traps):**
+**Interrupts vs Traps:**
 
-- *Interrupciones (Interrupts):*
+- *Interrupts:*
    - Eventos externos al procesador que requieren atención inmediata, pueden ser de hardware o software.
 
-- *Trampas (Traps):*
+- *Traps:*
    - Eventos generados internamente por el procesador en respuesta a instrucciones específicas durante la ejecución del programa. Pueden ser causadas por errores en el programa o por llamadas al sistema operativo.
 
